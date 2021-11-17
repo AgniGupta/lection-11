@@ -1,0 +1,19 @@
+
+<html>
+<body>
+<h1>Hello World</h1>
+<script type="text/javascript" charset="utf-8">
+function readNumber() {
+let num;
+  do{
+    num = prompt(" Vvedite chislo,sir ");
+  }while ( !isFinite(num) );
+    if (num === null 
+    ||
+    num === ' ') return null;
+return +num;
+}
+alert(`Number: ${readNumber()}`);
+</script>
+</body>
+</html>
